@@ -1,0 +1,68 @@
+header {
+    height: 150px;
+    line-height: 150px;
+    overflow: auto;
+  }
+  
+  h1 {
+    margin: 0;
+    
+  }
+  
+  section {
+    overflow: auto;
+    margin: auto;
+  }
+  
+  div {
+    height: 75px;
+    margin: 25px;
+    width: 100px;
+    border: 5px solid green;
+    line-height: 75px;
+    text-align: center;
+    color: white;
+  }
+
+  @media( min-width: 960px ) {
+
+    section {
+      display:table;
+    }
+
+    div {
+      float: left;
+      background-color: teal;
+    }
+
+    .sec1 {
+      width: auto;
+      height: auto;
+      padding: 20px;
+      margin: auto;
+      border: 5px solid rgb(8, 250, 40);
+      background-color: teal;
+  }
+
+  }
+
+  @media( max-width: 768px ) {
+
+   section {
+        display:inline-block;
+   }
+
+   .sec1 {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    border: 5px solid rgb(8, 250, 40);
+    background-color: peru;
+}
+
+  div {
+    background-color: violet;
+  }
+
+  }
